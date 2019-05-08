@@ -1,0 +1,74 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+* {
+ 
+}
+
+#stage {
+  position: relative;
+  height: 268px;
+  width: 600px;
+  
+}
+
+/* StanLee */
+img[alt="StanLee"]{
+  position: absolute;
+  height: 300px;
+  top: 10px;
+  right: -250px;
+}
+
+/* Stan */
+.top{
+  position: absolute;
+  right: 35px;
+  width: 300px;
+  height: 300px;
+
+}
+
+.bottom{
+  position: absolute;
+  right: 35px;
+  width: 300px;
+  height: 300px;
+
+}
+
+#stan img {
+      -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+}
+
+#stan img.bottom:hover {
+    opacity:0;
+}
+
+/* Google */
+img[alt="Google"]{
+  position: absolute;
+  height: 100px;
+  top: 220px;
+  left: 60px;
+}
+
+/* Years */
+img[alt="Years"]{
+  position: absolute;
+  height: 90px;
+  top: 200px;
+  right: -290px;
+}
+
+.autograph{
+  background: url('https://mail.google.com/mail/u/0?ui=2&ik=1d9ef6caff&attid=0.3&permmsgid=msg-a:r-5110043491649841136&th=16a95ba1d01474f2&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ86DUpwFxX13Rv26CRuxtRDrZVww1eD-fNFDaMX0UnMXGmVHhLKPEaBaESegN1EJ-ScZQd6f020K73bBvRTlc-b6Q2x2k-UXunvbObjGZl572P1SSpYmeC9lco&disp=emb&realattid=ii_jveqaeyq2')
+}
